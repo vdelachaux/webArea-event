@@ -1,0 +1,92 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Web Area": {
+					"type": "webArea",
+					"left": 89,
+					"top": 107,
+					"width": 493,
+					"height": 372,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"urlSource": "url",
+					"methodsAccessibility": "all",
+					"webEngine": "embedded",
+					"borderStyle": "dotted",
+					"events": [
+						"onEndURLLoading"
+					],
+					"method": "ObjectMethods/Web Area.4dm"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 392,
+					"left": 37,
+					"width": 113,
+					"height": 35,
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 258,
+					"left": 40,
+					"width": 107,
+					"height": 70,
+					"fill": "#ff0000"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Hello world",
+					"top": 343,
+					"left": 30,
+					"width": 127,
+					"height": 29,
+					"fontSize": 24,
+					"stroke": "#0000cd"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Click on the web area after it has loaded",
+					"top": 46,
+					"left": 99,
+					"width": 456,
+					"height": 29,
+					"fontSize": 24
+				}
+			}
+		}
+	],
+	"geometryStamp": 51,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
